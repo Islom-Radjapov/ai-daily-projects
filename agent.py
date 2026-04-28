@@ -6,7 +6,7 @@ from datetime import datetime
 
 ANTHROPIC_API_KEY = os.environ["ANTHROPIC_API_KEY"]
 GITHUB_TOKEN = os.environ["GITHUB_TOKEN"]
-GITHUB_USERNAME = os.environ["GITHUB_USERNAME"]
+GITHUB_USERNAME = os.environ["MY_USERNAME"]
 
 HEADERS_GITHUB = {
     "Authorization": f"token {GITHUB_TOKEN}",
