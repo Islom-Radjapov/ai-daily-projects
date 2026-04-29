@@ -4,6 +4,7 @@ import random
 import requests
 from datetime import datetime
 
+
 ANTHROPIC_API_KEY = os.environ["ANTHROPIC_API_KEY"]
 GITHUB_TOKEN = os.environ["GITHUB_TOKEN"]
 GITHUB_USERNAME = "Islom-Radjapov"
